@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.urunler {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.urun {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.miktar-kontrol {
+  margin: 15px 0;
+}
+
+.miktar-kontrol button {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.sepete-ekle, #siparis-tamamla {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.sepet {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+#sepet-listesi {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sepet-listesi li {
+  padding: 5px 0;
+}
+
+.odeme-formu {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-group-row > div {
+  flex: 1;
+}
+
+.sepet-ozeti {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sepet-ozeti ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sepet-ozeti li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.success-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.success-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.success-content h3 {
+  color: #4CAF50;
+  font-size: 24px;
+}
+
+#ana-sayfa {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
